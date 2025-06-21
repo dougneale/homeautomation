@@ -9,7 +9,9 @@
     "start": "node dist/index.js",
     "discover-bridge": "ts-node scripts/discover-bridge.ts",
     "get-api-key": "ts-node scripts/get-api-key.ts",
-    "export-config": "ts-node scripts/export-config.ts",
+    "export-config": "ts-node scripts/export-config-v2.ts",
+    "export-config-v1": "ts-node scripts/export-config-v1.ts",
+    "export-config-legacy": "ts-node scripts/export-config.ts",
     "apply-config": "ts-node scripts/apply-config.ts"
   },
   "keywords": [

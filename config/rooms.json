@@ -1,0 +1,308 @@
+{
+  "rooms": {
+    "81": {
+      "id": "81",
+      "name": "Doug’s Room",
+      "type": "Room",
+      "class": "Bedroom",
+      "lights": [
+        "3",
+        "13",
+        "9"
+      ],
+      "state": {
+        "all_on": false,
+        "any_on": false
+      },
+      "recycle": false,
+      "action": {
+        "on": false,
+        "bri": 1,
+        "hue": 7726,
+        "sat": 197,
+        "effect": "none",
+        "xy": [
+          0.561,
+          0.4042
+        ],
+        "ct": 447,
+        "alert": "select",
+        "colormode": "xy"
+      }
+    },
+    "82": {
+      "id": "82",
+      "name": "Doug with Benefits",
+      "type": "Zone",
+      "class": "Pool",
+      "lights": [
+        "1",
+        "3",
+        "2",
+        "11",
+        "8",
+        "9",
+        "5",
+        "4"
+      ],
+      "state": {
+        "all_on": false,
+        "any_on": true
+      },
+      "recycle": false,
+      "action": {
+        "on": false,
+        "bri": 254,
+        "hue": 7726,
+        "sat": 197,
+        "effect": "none",
+        "xy": [
+          0.561,
+          0.4042
+        ],
+        "ct": 343,
+        "alert": "select",
+        "colormode": "ct"
+      }
+    },
+    "85": {
+      "id": "85",
+      "name": "Kitchen",
+      "type": "Room",
+      "class": "Kitchen",
+      "lights": [
+        "4",
+        "5"
+      ],
+      "state": {
+        "all_on": false,
+        "any_on": false
+      },
+      "recycle": false,
+      "action": {
+        "on": false,
+        "bri": 254,
+        "ct": 343,
+        "alert": "select",
+        "colormode": "ct"
+      }
+    },
+    "86": {
+      "id": "86",
+      "name": "Hallway",
+      "type": "Room",
+      "class": "Hallway",
+      "lights": [
+        "11"
+      ],
+      "state": {
+        "all_on": true,
+        "any_on": true
+      },
+      "recycle": false,
+      "action": {
+        "on": true,
+        "bri": 254,
+        "hue": 8412,
+        "sat": 140,
+        "effect": "none",
+        "xy": [
+          0.4574,
+          0.41
+        ],
+        "ct": 366,
+        "alert": "select",
+        "colormode": "xy"
+      }
+    },
+    "87": {
+      "id": "87",
+      "name": "Sandy’s Bedroom",
+      "type": "Room",
+      "class": "Bedroom",
+      "lights": [
+        "14",
+        "6",
+        "7"
+      ],
+      "state": {
+        "all_on": false,
+        "any_on": false
+      },
+      "recycle": false,
+      "action": {
+        "on": false,
+        "bri": 13,
+        "hue": 7782,
+        "sat": 193,
+        "effect": "none",
+        "xy": [
+          0.4962,
+          0.4151
+        ],
+        "ct": 436,
+        "alert": "select",
+        "colormode": "ct"
+      }
+    },
+    "88": {
+      "id": "88",
+      "name": "Salon",
+      "type": "Room",
+      "class": "Living room",
+      "lights": [
+        "8",
+        "1",
+        "2"
+      ],
+      "state": {
+        "all_on": false,
+        "any_on": false
+      },
+      "recycle": false,
+      "action": {
+        "on": false,
+        "bri": 254,
+        "hue": 8617,
+        "sat": 118,
+        "effect": "none",
+        "xy": [
+          0.4434,
+          0.4062
+        ],
+        "ct": 343,
+        "alert": "select",
+        "colormode": "xy"
+      }
+    },
+    "89": {
+      "id": "89",
+      "name": "Bathroom",
+      "type": "Room",
+      "class": "Bathroom",
+      "lights": [
+        "12",
+        "10"
+      ],
+      "state": {
+        "all_on": true,
+        "any_on": true
+      },
+      "recycle": false,
+      "action": {
+        "on": true,
+        "bri": 254,
+        "alert": "select"
+      }
+    },
+    "90": {
+      "id": "90",
+      "name": "Common Areas",
+      "type": "Zone",
+      "class": "Other",
+      "lights": [
+        "2",
+        "8",
+        "9",
+        "10",
+        "11",
+        "13",
+        "12"
+      ],
+      "state": {
+        "all_on": false,
+        "any_on": true
+      },
+      "recycle": false,
+      "action": {
+        "on": true,
+        "bri": 254,
+        "hue": 6291,
+        "sat": 251,
+        "effect": "none",
+        "xy": [
+          0.5612,
+          0.4042
+        ],
+        "ct": 447,
+        "alert": "select",
+        "colormode": "hs"
+      }
+    },
+    "91": {
+      "id": "91",
+      "name": "Ganze Wohnung",
+      "type": "Zone",
+      "class": "Home",
+      "lights": [
+        "10",
+        "3",
+        "8",
+        "9",
+        "1",
+        "4",
+        "5",
+        "6",
+        "7",
+        "2",
+        "11",
+        "13",
+        "12"
+      ],
+      "state": {
+        "all_on": false,
+        "any_on": true
+      },
+      "recycle": false,
+      "action": {
+        "on": true,
+        "bri": 254,
+        "hue": 6291,
+        "sat": 251,
+        "effect": "none",
+        "xy": [
+          0.5612,
+          0.4042
+        ],
+        "ct": 447,
+        "alert": "select",
+        "colormode": "hs"
+      }
+    },
+    "92": {
+      "id": "92",
+      "name": "Colors (common",
+      "type": "Zone",
+      "class": "Studio",
+      "lights": [
+        "13",
+        "1",
+        "2",
+        "7",
+        "8",
+        "9",
+        "3",
+        "11"
+      ],
+      "state": {
+        "all_on": false,
+        "any_on": true
+      },
+      "recycle": false,
+      "action": {
+        "on": true,
+        "bri": 254,
+        "hue": 8412,
+        "sat": 140,
+        "effect": "none",
+        "xy": [
+          0.4574,
+          0.41
+        ],
+        "ct": 366,
+        "alert": "select",
+        "colormode": "xy"
+      }
+    }
+  }
+}
