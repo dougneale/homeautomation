@@ -1,0 +1,640 @@
+{
+  "lights": {
+    "0536201c-4b23-4d6b-ba89-f6973310834b": {
+      "id": "0536201c-4b23-4d6b-ba89-f6973310834b",
+      "id_v1": "/lights/3",
+      "name": "Doug Lamp",
+      "archetype": "table_shade",
+      "function": "mixed",
+      "state": {
+        "on": false,
+        "brightness": null,
+        "color_temperature": null,
+        "color_xy": {
+          "x": 0.561,
+          "y": 0.4042
+        }
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 0,
+          "min_dim_level": 0.2
+        },
+        "color_temperature": {
+          "mirek": null,
+          "mirek_valid": false,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 500
+          }
+        },
+        "color": {
+          "xy": {
+            "x": 0.561,
+            "y": 0.4042
+          },
+          "gamut": {
+            "red": {
+              "x": 0.6915,
+              "y": 0.3083
+            },
+            "green": {
+              "x": 0.17,
+              "y": 0.7
+            },
+            "blue": {
+              "x": 0.1532,
+              "y": 0.0475
+            }
+          },
+          "gamut_type": "C"
+        }
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "10b4bddf-c2ad-427b-aaad-0b14e4ad16f3": {
+      "id": "10b4bddf-c2ad-427b-aaad-0b14e4ad16f3",
+      "id_v1": "/lights/6",
+      "name": "Bedroom Lightstrip",
+      "archetype": "hue_lightstrip",
+      "function": "mixed",
+      "state": {
+        "on": false,
+        "brightness": 4.74,
+        "color_temperature": 436,
+        "color_xy": {
+          "x": 0.4962,
+          "y": 0.4151
+        }
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 4.74,
+          "min_dim_level": 0.04
+        },
+        "color_temperature": {
+          "mirek": 436,
+          "mirek_valid": true,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 500
+          }
+        },
+        "color": {
+          "xy": {
+            "x": 0.4962,
+            "y": 0.4151
+          },
+          "gamut": {
+            "red": {
+              "x": 0.6915,
+              "y": 0.3083
+            },
+            "green": {
+              "x": 0.17,
+              "y": 0.7
+            },
+            "blue": {
+              "x": 0.1532,
+              "y": 0.0475
+            }
+          },
+          "gamut_type": "C"
+        }
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "17d88da5-166d-44f0-bdea-7741b6ffc103": {
+      "id": "17d88da5-166d-44f0-bdea-7741b6ffc103",
+      "id_v1": "/lights/1",
+      "name": "Desk Lamp",
+      "archetype": "flexible_lamp",
+      "function": "mixed",
+      "state": {
+        "on": false,
+        "brightness": 100,
+        "color_temperature": 343,
+        "color_xy": {
+          "x": 0.4434,
+          "y": 0.4062
+        }
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 100,
+          "min_dim_level": 0.2
+        },
+        "color_temperature": {
+          "mirek": 343,
+          "mirek_valid": true,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 500
+          }
+        },
+        "color": {
+          "xy": {
+            "x": 0.4434,
+            "y": 0.4062
+          },
+          "gamut": {
+            "red": {
+              "x": 0.6915,
+              "y": 0.3083
+            },
+            "green": {
+              "x": 0.17,
+              "y": 0.7
+            },
+            "blue": {
+              "x": 0.1532,
+              "y": 0.0475
+            }
+          },
+          "gamut_type": "C"
+        }
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "28d2a6a9-d6eb-453a-91fb-fc38166fb5f4": {
+      "id": "28d2a6a9-d6eb-453a-91fb-fc38166fb5f4",
+      "id_v1": "/lights/8",
+      "name": "Living room main",
+      "archetype": "pendant_round",
+      "function": "mixed",
+      "state": {
+        "on": false,
+        "brightness": 100,
+        "color_temperature": 366,
+        "color_xy": {
+          "x": 0.4574,
+          "y": 0.41
+        }
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 100,
+          "min_dim_level": 0.2
+        },
+        "color_temperature": {
+          "mirek": 366,
+          "mirek_valid": true,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 500
+          }
+        },
+        "color": {
+          "xy": {
+            "x": 0.4574,
+            "y": 0.41
+          },
+          "gamut": {
+            "red": {
+              "x": 0.6915,
+              "y": 0.3083
+            },
+            "green": {
+              "x": 0.17,
+              "y": 0.7
+            },
+            "blue": {
+              "x": 0.1532,
+              "y": 0.0475
+            }
+          },
+          "gamut_type": "C"
+        }
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "34de0a7b-ff17-423f-8356-a2cf92069c8e": {
+      "id": "34de0a7b-ff17-423f-8356-a2cf92069c8e",
+      "id_v1": "/lights/11",
+      "name": "Overhead Lamp",
+      "archetype": "pendant_round",
+      "function": "mixed",
+      "state": {
+        "on": true,
+        "brightness": 100,
+        "color_temperature": 366,
+        "color_xy": {
+          "x": 0.4572,
+          "y": 0.4099
+        }
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 100,
+          "min_dim_level": 0.2
+        },
+        "color_temperature": {
+          "mirek": 366,
+          "mirek_valid": true,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 500
+          }
+        },
+        "color": {
+          "xy": {
+            "x": 0.4572,
+            "y": 0.4099
+          },
+          "gamut": {
+            "red": {
+              "x": 0.6915,
+              "y": 0.3083
+            },
+            "green": {
+              "x": 0.17,
+              "y": 0.7
+            },
+            "blue": {
+              "x": 0.1532,
+              "y": 0.0475
+            }
+          },
+          "gamut_type": "C"
+        }
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "3c422150-8403-461d-9c32-5384d3aaf91d": {
+      "id": "3c422150-8403-461d-9c32-5384d3aaf91d",
+      "id_v1": "/lights/7",
+      "name": "Overhead Lamp",
+      "archetype": "pendant_round",
+      "function": "mixed",
+      "state": {
+        "on": false,
+        "brightness": 4.74,
+        "color_temperature": 436,
+        "color_xy": {
+          "x": 0.4962,
+          "y": 0.4151
+        }
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 4.74,
+          "min_dim_level": 0.2
+        },
+        "color_temperature": {
+          "mirek": 436,
+          "mirek_valid": true,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 500
+          }
+        },
+        "color": {
+          "xy": {
+            "x": 0.4962,
+            "y": 0.4151
+          },
+          "gamut": {
+            "red": {
+              "x": 0.6915,
+              "y": 0.3083
+            },
+            "green": {
+              "x": 0.17,
+              "y": 0.7
+            },
+            "blue": {
+              "x": 0.1532,
+              "y": 0.0475
+            }
+          },
+          "gamut_type": "C"
+        }
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "434578a9-deee-49a4-911c-072ec04c761c": {
+      "id": "434578a9-deee-49a4-911c-072ec04c761c",
+      "id_v1": "/lights/4",
+      "name": "Kitchen Main",
+      "archetype": "pendant_round",
+      "function": "mixed",
+      "state": {
+        "on": false,
+        "brightness": 100,
+        "color_temperature": 343,
+        "color_xy": null
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 100,
+          "min_dim_level": 0.2
+        },
+        "color_temperature": {
+          "mirek": 343,
+          "mirek_valid": true,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 454
+          }
+        },
+        "color": null
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "48eb6853-5de9-4f17-b416-a1f47a250bd0": {
+      "id": "48eb6853-5de9-4f17-b416-a1f47a250bd0",
+      "id_v1": "/lights/2",
+      "name": "Floor Lamp",
+      "archetype": "floor_shade",
+      "function": "mixed",
+      "state": {
+        "on": false,
+        "brightness": 100,
+        "color_temperature": 343,
+        "color_xy": {
+          "x": 0.4434,
+          "y": 0.4062
+        }
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 100,
+          "min_dim_level": 0.2
+        },
+        "color_temperature": {
+          "mirek": 343,
+          "mirek_valid": true,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 500
+          }
+        },
+        "color": {
+          "xy": {
+            "x": 0.4434,
+            "y": 0.4062
+          },
+          "gamut": {
+            "red": {
+              "x": 0.6915,
+              "y": 0.3083
+            },
+            "green": {
+              "x": 0.17,
+              "y": 0.7
+            },
+            "blue": {
+              "x": 0.1532,
+              "y": 0.0475
+            }
+          },
+          "gamut_type": "C"
+        }
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "66f83e03-61d1-4996-8e57-91ba60455166": {
+      "id": "66f83e03-61d1-4996-8e57-91ba60455166",
+      "id_v1": "/lights/14",
+      "name": "Reading lamp",
+      "archetype": "table_shade",
+      "function": "mixed",
+      "state": {
+        "on": false,
+        "brightness": 99.6,
+        "color_temperature": 436,
+        "color_xy": {
+          "x": 0.4962,
+          "y": 0.4151
+        }
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 99.6,
+          "min_dim_level": 0.2
+        },
+        "color_temperature": {
+          "mirek": 436,
+          "mirek_valid": true,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 500
+          }
+        },
+        "color": {
+          "xy": {
+            "x": 0.4962,
+            "y": 0.4151
+          },
+          "gamut": {
+            "red": {
+              "x": 0.6915,
+              "y": 0.3083
+            },
+            "green": {
+              "x": 0.17,
+              "y": 0.7
+            },
+            "blue": {
+              "x": 0.1532,
+              "y": 0.0475
+            }
+          },
+          "gamut_type": "C"
+        }
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "683f3b05-3f7a-41b5-99f4-4742013d0ebb": {
+      "id": "683f3b05-3f7a-41b5-99f4-4742013d0ebb",
+      "id_v1": "/lights/13",
+      "name": "Desk Lamp",
+      "archetype": "flexible_lamp",
+      "function": "mixed",
+      "state": {
+        "on": false,
+        "brightness": null,
+        "color_temperature": null,
+        "color_xy": {
+          "x": 0.5612,
+          "y": 0.4042
+        }
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 0,
+          "min_dim_level": 0.2
+        },
+        "color_temperature": {
+          "mirek": null,
+          "mirek_valid": false,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 500
+          }
+        },
+        "color": {
+          "xy": {
+            "x": 0.5612,
+            "y": 0.4042
+          },
+          "gamut": {
+            "red": {
+              "x": 0.6915,
+              "y": 0.3083
+            },
+            "green": {
+              "x": 0.17,
+              "y": 0.7
+            },
+            "blue": {
+              "x": 0.1532,
+              "y": 0.0475
+            }
+          },
+          "gamut_type": "C"
+        }
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "70d47120-4cd0-45fc-8b7a-c588818b7439": {
+      "id": "70d47120-4cd0-45fc-8b7a-c588818b7439",
+      "id_v1": "/lights/5",
+      "name": "Stove light",
+      "archetype": "pendant_spot",
+      "function": "mixed",
+      "state": {
+        "on": false,
+        "brightness": 100,
+        "color_temperature": 343,
+        "color_xy": null
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 100,
+          "min_dim_level": 0.2
+        },
+        "color_temperature": {
+          "mirek": 343,
+          "mirek_valid": true,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 454
+          }
+        },
+        "color": null
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "8c9601ae-d2ce-4e1d-a5ac-f7169111e8ee": {
+      "id": "8c9601ae-d2ce-4e1d-a5ac-f7169111e8ee",
+      "id_v1": "/lights/9",
+      "name": "Light Strip",
+      "archetype": "hue_lightstrip",
+      "function": "decorative",
+      "state": {
+        "on": false,
+        "brightness": null,
+        "color_temperature": null,
+        "color_xy": {
+          "x": 0.561,
+          "y": 0.4042
+        }
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 0,
+          "min_dim_level": 0.025
+        },
+        "color_temperature": {
+          "mirek": null,
+          "mirek_valid": false,
+          "mirek_schema": {
+            "mirek_minimum": 153,
+            "mirek_maximum": 500
+          }
+        },
+        "color": {
+          "xy": {
+            "x": 0.561,
+            "y": 0.4042
+          },
+          "gamut": {
+            "red": {
+              "x": 0.6915,
+              "y": 0.3083
+            },
+            "green": {
+              "x": 0.17,
+              "y": 0.7
+            },
+            "blue": {
+              "x": 0.1532,
+              "y": 0.0475
+            }
+          },
+          "gamut_type": "C"
+        }
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "b010026e-2419-44f0-9144-533ef49d7278": {
+      "id": "b010026e-2419-44f0-9144-533ef49d7278",
+      "id_v1": "/lights/12",
+      "name": "bathroom main",
+      "archetype": "ceiling_round",
+      "function": "mixed",
+      "state": {
+        "on": true,
+        "brightness": 100,
+        "color_temperature": null,
+        "color_xy": null
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 100,
+          "min_dim_level": 2
+        },
+        "color_temperature": null,
+        "color": null
+      },
+      "type": "light",
+      "mode": "normal"
+    },
+    "e36c5579-1a4f-4121-8b9b-b5997a21a1f6": {
+      "id": "e36c5579-1a4f-4121-8b9b-b5997a21a1f6",
+      "id_v1": "/lights/10",
+      "name": "bathroom lamp",
+      "archetype": "wall_lantern",
+      "function": "mixed",
+      "state": {
+        "on": true,
+        "brightness": 100,
+        "color_temperature": null,
+        "color_xy": null
+      },
+      "capabilities": {
+        "dimming": {
+          "brightness": 100,
+          "min_dim_level": 2
+        },
+        "color_temperature": null,
+        "color": null
+      },
+      "type": "light",
+      "mode": "normal"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "rooms": {
+    "3ef364c6-dd6a-4e7f-80c6-97ddda6c61e0": {
+      "id": "3ef364c6-dd6a-4e7f-80c6-97ddda6c61e0",
+      "id_v1": "/groups/85",
+      "name": "Kitchen",
+      "archetype": "kitchen",
+      "children": [
+        {
+          "rid": "27c1f731-2684-4614-9b3c-2444b9392fba",
+          "rtype": "device"
+        },
+        {
+          "rid": "6b2511f9-0cfe-465f-a207-1de893ff0bf4",
+          "rtype": "device"
+        },
+        {
+          "rid": "9496d322-2906-4490-86f2-7ea4cb618d30",
+          "rtype": "device"
+        }
+      ],
+      "services": [
+        {
+          "rid": "455f9f5a-b1fe-43f0-ae59-4ed3cd547e92",
+          "rtype": "grouped_light"
+        }
+      ],
+      "type": "room"
+    },
+    "9a62d027-7a4c-4fd8-b27a-30a1177508c5": {
+      "id": "9a62d027-7a4c-4fd8-b27a-30a1177508c5",
+      "id_v1": "/groups/87",
+      "name": "Sandy’s Bedroom",
+      "archetype": "bedroom",
+      "children": [
+        {
+          "rid": "4ca25815-1548-49eb-ab98-0ac5e3721dfa",
+          "rtype": "device"
+        },
+        {
+          "rid": "abab392c-73ec-4adf-8cb6-23c478f5a8e3",
+          "rtype": "device"
+        },
+        {
+          "rid": "18c3f3d3-ecb3-4579-bbde-bab8e1965b94",
+          "rtype": "device"
+        }
+      ],
+      "services": [
+        {
+          "rid": "e8f1c8df-fae3-47a1-a342-b9564a5f8704",
+          "rtype": "grouped_light"
+        }
+      ],
+      "type": "room"
+    },
+    "a0ba684b-fd66-42f9-8b69-0b8d53f69fd0": {
+      "id": "a0ba684b-fd66-42f9-8b69-0b8d53f69fd0",
+      "id_v1": "/groups/81",
+      "name": "Doug’s Room",
+      "archetype": "bedroom",
+      "children": [
+        {
+          "rid": "cc347230-eba4-45b1-b928-9810a125432c",
+          "rtype": "device"
+        },
+        {
+          "rid": "4cbeb63b-e698-47fa-8993-eee89f5eb7e8",
+          "rtype": "device"
+        },
+        {
+          "rid": "373898f1-dddc-45a6-96e8-0c8ea3d30e5b",
+          "rtype": "device"
+        }
+      ],
+      "services": [
+        {
+          "rid": "86766f83-5b4a-44d9-bada-69ef5221139c",
+          "rtype": "grouped_light"
+        }
+      ],
+      "type": "room"
+    },
+    "aaea14f0-92e0-4aa2-9a5b-4f46669d56f2": {
+      "id": "aaea14f0-92e0-4aa2-9a5b-4f46669d56f2",
+      "id_v1": "/groups/88",
+      "name": "Salon",
+      "archetype": "living_room",
+      "children": [
+        {
+          "rid": "b3d2ef10-9118-4670-80fe-97cda3d53373",
+          "rtype": "device"
+        },
+        {
+          "rid": "1b4a7ae4-8be3-4def-935a-f71a61e3c958",
+          "rtype": "device"
+        },
+        {
+          "rid": "7162dd44-0bec-474c-a89e-689e4a24469c",
+          "rtype": "device"
+        },
+        {
+          "rid": "76510df9-b23f-4579-8622-3bc99b38eb8e",
+          "rtype": "device"
+        }
+      ],
+      "services": [
+        {
+          "rid": "7fc1cd13-4815-4320-9dfa-3a465f1e1e8a",
+          "rtype": "grouped_light"
+        }
+      ],
+      "type": "room"
+    },
+    "ac02ac60-8ab5-4e53-a73a-6240d1c32f60": {
+      "id": "ac02ac60-8ab5-4e53-a73a-6240d1c32f60",
+      "id_v1": "/groups/86",
+      "name": "Hallway",
+      "archetype": "hallway",
+      "children": [
+        {
+          "rid": "9126302e-806b-4146-bbf9-3aec2fff3c2e",
+          "rtype": "device"
+        }
+      ],
+      "services": [
+        {
+          "rid": "d68b5bb1-b79c-469c-9023-cb78ba73f5cd",
+          "rtype": "grouped_light"
+        }
+      ],
+      "type": "room"
+    },
+    "c2f29673-a9fd-4f1d-a018-5751c03b1a77": {
+      "id": "c2f29673-a9fd-4f1d-a018-5751c03b1a77",
+      "id_v1": "/groups/89",
+      "name": "Bathroom",
+      "archetype": "bathroom",
+      "children": [
+        {
+          "rid": "a985387c-b55f-469d-b2bb-0b5e9fbdb8ec",
+          "rtype": "device"
+        },
+        {
+          "rid": "11aa95e1-253b-4b3b-81c0-65a4d2d1af2e",
+          "rtype": "device"
+        }
+      ],
+      "services": [
+        {
+          "rid": "4fe20a7f-11b9-48ed-9926-a792e8aeccaa",
+          "rtype": "grouped_light"
+        }
+      ],
+      "type": "room"
+    }
+  }
+}

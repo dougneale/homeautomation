@@ -1,0 +1,2108 @@
+{
+  "scenes": {
+    "SyyQiW4Uz8fd7R0": {
+      "id": "SyyQiW4Uz8fd7R0",
+      "name": "Last on state",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "00000_r00_d20"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2023-11-08T00:18:31",
+      "version": 2
+    },
+    "s2vKV8V07pZll2K": {
+      "id": "s2vKV8V07pZll2K",
+      "name": "Relax",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "00001_r00_d01"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2023-11-08T00:18:31",
+      "version": 2
+    },
+    "zWKDD53v58fTjxB": {
+      "id": "zWKDD53v58fTjxB",
+      "name": "Read",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "00002_r00_d02"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2023-11-08T00:18:31",
+      "version": 2
+    },
+    "mgt1QoegBQHSw7N": {
+      "id": "mgt1QoegBQHSw7N",
+      "name": "Concentrate",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "00003_r00_d03"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2023-11-08T00:18:32",
+      "version": 2
+    },
+    "gkjed-6xLxPqkZ3": {
+      "id": "gkjed-6xLxPqkZ3",
+      "name": "Energize",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "00004_r00_d04"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2023-11-08T00:18:32",
+      "version": 2
+    },
+    "11kkMujSuxePMp4": {
+      "id": "11kkMujSuxePMp4",
+      "name": "Nightlight",
+      "type": "GroupScene",
+      "group": "0",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "00005_r00_d05"
+      },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2023-11-08T00:18:32",
+      "version": 2
+    },
+    "-IjSUkHKxdXe79yY": {
+      "id": "-IjSUkHKxdXe79yY",
+      "name": "Energize",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "5CWI9_r81"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "ryibEc3Pk1nJDlch": {
+      "id": "ryibEc3Pk1nJDlch",
+      "name": "Concentrate",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "RbeWU_r81"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "faTmKlmX3CoI8lfJ": {
+      "id": "faTmKlmX3CoI8lfJ",
+      "name": "Read",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "RdQqe_r81"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "oFD7rz3UzlcXuSGm": {
+      "id": "oFD7rz3UzlcXuSGm",
+      "name": "Relax",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "NJ8mX_r81"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2025-06-07T22:24:25",
+      "version": 2
+    },
+    "UVA6d079fjiMWejE": {
+      "id": "UVA6d079fjiMWejE",
+      "name": "Rest",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "LS0do_r81"
+      },
+      "picture": "",
+      "image": "11a09ad5-8d65-4e90-959b-f05981a9ab1b",
+      "lastupdated": "2025-06-07T22:24:25",
+      "version": 2
+    },
+    "5v1EtwBPcyh-tK1w": {
+      "id": "5v1EtwBPcyh-tK1w",
+      "name": "Nightlight",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "5HaCg_r81"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2025-06-07T22:24:25",
+      "version": 2
+    },
+    "VRqqA8wBLfVkYB6X": {
+      "id": "VRqqA8wBLfVkYB6X",
+      "name": "Malibu pink",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "JQfVc_r81"
+      },
+      "picture": "",
+      "image": "b037f15f-f7e4-46ab-b624-45ba2886c127",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "1zNM9f4N-Zi4-IZA": {
+      "id": "1zNM9f4N-Zi4-IZA",
+      "name": "Soho",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "UAfja_r81"
+      },
+      "picture": "",
+      "image": "e4ee61c3-ecdd-4005-b483-58207e693258",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "oqtT8vATbwILcVfJ": {
+      "id": "oqtT8vATbwILcVfJ",
+      "name": "New scene",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "1TbHF_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:25",
+      "version": 2
+    },
+    "0kQ4XQwIieno85i6": {
+      "id": "0kQ4XQwIieno85i6",
+      "name": "mood",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "BfbwC_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "XxIZT02eWzFfAoWc": {
+      "id": "XxIZT02eWzFfAoWc",
+      "name": "prebed",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "D5lnP_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "Z7mjzHpHvoN97SVc": {
+      "id": "Z7mjzHpHvoN97SVc",
+      "name": "prebed",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "RwYjr_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "gUgus7FaJ-BUm0S7": {
+      "id": "gUgus7FaJ-BUm0S7",
+      "name": "Siri natural",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "nPy-w_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "l2v8GwM7sWnyDTup": {
+      "id": "l2v8GwM7sWnyDTup",
+      "name": "Galaxy",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "yuCT-_r81"
+      },
+      "picture": "",
+      "image": "9e1d16f5-f391-4306-a6d3-d15bca61eb56",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "ewnu45g8tNwd1ezN": {
+      "id": "ewnu45g8tNwd1ezN",
+      "name": "Fairfax",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "z4UHC_r81"
+      },
+      "picture": "",
+      "image": "cc716363-44c2-4d64-88be-152d74072ea0",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "jzWLd8PgP0xRIErV": {
+      "id": "jzWLd8PgP0xRIErV",
+      "name": "day",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "G2QYL_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "kReDGzA3t7EegJbq": {
+      "id": "kReDGzA3t7EegJbq",
+      "name": "Bright",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "nT22X_r81"
+      },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2025-06-07T22:24:25",
+      "version": 2
+    },
+    "gGjhWBpFXHoPhcVa": {
+      "id": "gGjhWBpFXHoPhcVa",
+      "name": "Misty ridge",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "iTRqh_r81"
+      },
+      "picture": "",
+      "image": "c6eab11b-10ea-42c0-936d-fb5692b897af",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "I7BRZpIjiyr28KNF": {
+      "id": "I7BRZpIjiyr28KNF",
+      "name": "Sundown",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "2-QPM_r81"
+      },
+      "picture": "",
+      "image": "a9038608-5e3e-4fde-8b31-2c03543445e3",
+      "lastupdated": "2025-06-07T22:24:25",
+      "version": 2
+    },
+    "38DqQcx5sdqmTj5p": {
+      "id": "38DqQcx5sdqmTj5p",
+      "name": "day",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "CabQC_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:25",
+      "version": 2
+    },
+    "0RkPM2J2R2B4Q7nW": {
+      "id": "0RkPM2J2R2B4Q7nW",
+      "name": "Bright",
+      "type": "GroupScene",
+      "group": "90",
+      "lights": [
+        "2",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Lg-ij_r90"
+      },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2025-04-09T21:18:33",
+      "version": 2
+    },
+    "URXDd81q2cR8BcBc": {
+      "id": "URXDd81q2cR8BcBc",
+      "name": "Relax",
+      "type": "GroupScene",
+      "group": "86",
+      "lights": [
+        "11"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "yLdTk_r86"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2025-02-13T21:44:42",
+      "version": 2
+    },
+    "54nNfawTYIKNlfp0": {
+      "id": "54nNfawTYIKNlfp0",
+      "name": "Energize",
+      "type": "GroupScene",
+      "group": "88",
+      "lights": [
+        "1",
+        "2",
+        "8"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "gxY4C_r88"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2025-06-07T22:24:26",
+      "version": 2
+    },
+    "d4domAoaV1VAsb4y": {
+      "id": "d4domAoaV1VAsb4y",
+      "name": "Energize",
+      "type": "GroupScene",
+      "group": "89",
+      "lights": [
+        "10",
+        "12"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "8yiU7_r89"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2025-03-07T08:35:44",
+      "version": 2
+    },
+    "Z3BaFn6QLdchHQFc": {
+      "id": "Z3BaFn6QLdchHQFc",
+      "name": "Dimmed",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Z8s7d_r81"
+      },
+      "picture": "",
+      "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "gMyvZ2bpcsu1ucbK": {
+      "id": "gMyvZ2bpcsu1ucbK",
+      "name": "Energize",
+      "type": "GroupScene",
+      "group": "85",
+      "lights": [
+        "4",
+        "5"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "kSnDm_r85"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2025-06-07T21:53:21",
+      "version": 2
+    },
+    "UFsC0DcnD8UKhMvP": {
+      "id": "UFsC0DcnD8UKhMvP",
+      "name": "Concentrate",
+      "type": "GroupScene",
+      "group": "88",
+      "lights": [
+        "1",
+        "2",
+        "8"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "uBRb6_r88"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2025-06-07T22:24:26",
+      "version": 2
+    },
+    "xxoG6JM-hZwRQQzO": {
+      "id": "xxoG6JM-hZwRQQzO",
+      "name": "Concentrate",
+      "type": "GroupScene",
+      "group": "89",
+      "lights": [
+        "10",
+        "12"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "dGiGn_r89"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2025-03-07T08:35:44",
+      "version": 2
+    },
+    "vBD3PB6E7oOvVF7c": {
+      "id": "vBD3PB6E7oOvVF7c",
+      "name": "Concentrate",
+      "type": "GroupScene",
+      "group": "85",
+      "lights": [
+        "4",
+        "5"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "0bm9V_r85"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2025-06-07T21:53:21",
+      "version": 2
+    },
+    "F-IMJDmOtqSJUdGx": {
+      "id": "F-IMJDmOtqSJUdGx",
+      "name": "Read",
+      "type": "GroupScene",
+      "group": "88",
+      "lights": [
+        "1",
+        "2",
+        "8"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "3jx4e_r88"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2025-06-07T22:24:26",
+      "version": 2
+    },
+    "eQ6pMgupYRzwdSSp": {
+      "id": "eQ6pMgupYRzwdSSp",
+      "name": "nice",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "3C3oL_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "mxoXvKYY2W8MUEau": {
+      "id": "mxoXvKYY2W8MUEau",
+      "name": "Cool bright",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "7yga5_r81"
+      },
+      "picture": "",
+      "image": "dbccef2b-096e-49df-93c2-726665e80b26",
+      "lastupdated": "2025-06-07T22:24:25",
+      "version": 2
+    },
+    "RdohSbMjNES47uPr": {
+      "id": "RdohSbMjNES47uPr",
+      "name": "Spring lake",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "z177y_r81"
+      },
+      "picture": "",
+      "image": "f23b133f-7d9e-4edd-bf22-c2c4ba47b39d",
+      "lastupdated": "2025-06-07T22:24:25",
+      "version": 2
+    },
+    "Ayjby5hK9YwyOiK1": {
+      "id": "Ayjby5hK9YwyOiK1",
+      "name": "Fairfax 2",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "zelgR_r81"
+      },
+      "picture": "",
+      "image": "cc716363-44c2-4d64-88be-152d74072ea0",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "rkBiwUKYzCtMB1tm": {
+      "id": "rkBiwUKYzCtMB1tm",
+      "name": "playful",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "QP9Kc_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:25",
+      "version": 2
+    },
+    "CTivfkBVH6I6Pxtd": {
+      "id": "CTivfkBVH6I6Pxtd",
+      "name": "Lake mist",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "IDVgV_r81"
+      },
+      "picture": "",
+      "image": "b9deeedc-1f30-4152-90ba-e9c356f77871",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "ECXS2lM6kfbu1Bav": {
+      "id": "ECXS2lM6kfbu1Bav",
+      "name": "Drugs",
+      "type": "GroupScene",
+      "group": "90",
+      "lights": [
+        "2",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "UpPbl_r90"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-04-09T21:18:33",
+      "version": 2
+    },
+    "Ohfwcx97zGHQ-bYm": {
+      "id": "Ohfwcx97zGHQ-bYm",
+      "name": "Bright",
+      "type": "GroupScene",
+      "group": "87",
+      "lights": [
+        "6",
+        "7",
+        "14"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Yka4H_r87"
+      },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2025-03-28T22:48:32",
+      "version": 2
+    },
+    "dooYXI4lfnko5pot": {
+      "id": "dooYXI4lfnko5pot",
+      "name": "Soho",
+      "type": "GroupScene",
+      "group": "92",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "mHSOY_r92"
+      },
+      "picture": "",
+      "image": "e4ee61c3-ecdd-4005-b483-58207e693258",
+      "lastupdated": "2025-03-28T22:46:12",
+      "version": 2
+    },
+    "Pyi6aZU2Fh99KhZE": {
+      "id": "Pyi6aZU2Fh99KhZE",
+      "name": "Vapor wave",
+      "type": "GroupScene",
+      "group": "92",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "z31zd_r92"
+      },
+      "picture": "",
+      "image": "d8d1a014-5551-4ada-8da1-5a527d7bc09b",
+      "lastupdated": "2025-03-28T22:46:12",
+      "version": 2
+    },
+    "innuDsfbbTwusVMD": {
+      "id": "innuDsfbbTwusVMD",
+      "name": "Galaxy",
+      "type": "GroupScene",
+      "group": "92",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "yfL2O_r92"
+      },
+      "picture": "",
+      "image": "9e1d16f5-f391-4306-a6d3-d15bca61eb56",
+      "lastupdated": "2025-03-28T22:46:12",
+      "version": 2
+    },
+    "vlX3Oi5kBgsdZSPD": {
+      "id": "vlX3Oi5kBgsdZSPD",
+      "name": "Hal",
+      "type": "GroupScene",
+      "group": "92",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "7",
+        "8",
+        "9",
+        "11",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "gUxYa_r92"
+      },
+      "picture": "",
+      "image": "10f1768a-5872-4b6f-bb6c-4d2db7bd2eae",
+      "lastupdated": "2025-03-28T22:46:12",
+      "version": 2
+    },
+    "0ATLf8doe5miV-x0": {
+      "id": "0ATLf8doe5miV-x0",
+      "name": "Candles",
+      "type": "GroupScene",
+      "group": "91",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "bFzLV_r91"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-03-30T21:32:46",
+      "version": 2
+    },
+    "akJjPhMZzqH4qhML": {
+      "id": "akJjPhMZzqH4qhML",
+      "name": "Goblet of Fire",
+      "type": "GroupScene",
+      "group": "91",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "AL68k_r91"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-03-30T21:32:46",
+      "version": 2
+    },
+    "anjtcHOPq5z130ti": {
+      "id": "anjtcHOPq5z130ti",
+      "name": "Read",
+      "type": "GroupScene",
+      "group": "89",
+      "lights": [
+        "10",
+        "12"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "G9rV-_r89"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2025-03-07T08:35:44",
+      "version": 2
+    },
+    "8k4Z21RoTQaxCy7H": {
+      "id": "8k4Z21RoTQaxCy7H",
+      "name": "Read",
+      "type": "GroupScene",
+      "group": "85",
+      "lights": [
+        "4",
+        "5"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "q1wdd_r85"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2025-06-07T21:53:21",
+      "version": 2
+    },
+    "MrystqDyl-ioh7k1": {
+      "id": "MrystqDyl-ioh7k1",
+      "name": "Relax",
+      "type": "GroupScene",
+      "group": "88",
+      "lights": [
+        "1",
+        "2",
+        "8"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "ZU8c-_r88"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2025-06-07T22:24:26",
+      "version": 2
+    },
+    "honTj0F9ldQiL5nU": {
+      "id": "honTj0F9ldQiL5nU",
+      "name": "Relax",
+      "type": "GroupScene",
+      "group": "89",
+      "lights": [
+        "10",
+        "12"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "TeUSt_r89"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2025-03-07T08:35:44",
+      "version": 2
+    },
+    "ZNhsuTuA7GupAK1y": {
+      "id": "ZNhsuTuA7GupAK1y",
+      "name": "Relax",
+      "type": "GroupScene",
+      "group": "85",
+      "lights": [
+        "4",
+        "5"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "UGjIW_r85"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2025-06-07T21:53:21",
+      "version": 2
+    },
+    "OXGPAR20qwcxJSyl": {
+      "id": "OXGPAR20qwcxJSyl",
+      "name": "Nightlight",
+      "type": "GroupScene",
+      "group": "88",
+      "lights": [
+        "1",
+        "2",
+        "8"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "ZENfL_r88"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2025-06-07T22:24:26",
+      "version": 2
+    },
+    "uftZamkPY9S6Ponz": {
+      "id": "uftZamkPY9S6Ponz",
+      "name": "Nightlight",
+      "type": "GroupScene",
+      "group": "89",
+      "lights": [
+        "10",
+        "12"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "RD94w_r89"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2025-03-07T08:35:44",
+      "version": 2
+    },
+    "tlucxUcZ3s9uh93m": {
+      "id": "tlucxUcZ3s9uh93m",
+      "name": "Nightlight",
+      "type": "GroupScene",
+      "group": "85",
+      "lights": [
+        "4",
+        "5"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Mt6di_r85"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2025-06-07T21:53:21",
+      "version": 2
+    },
+    "NxL96Z5DW7cqYCRv": {
+      "id": "NxL96Z5DW7cqYCRv",
+      "name": "Energize",
+      "type": "GroupScene",
+      "group": "90",
+      "lights": [
+        "2",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "5pkHH_r90"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2025-04-09T21:18:33",
+      "version": 2
+    },
+    "t99QrWP5CL6HH5ix": {
+      "id": "t99QrWP5CL6HH5ix",
+      "name": "Concentrate",
+      "type": "GroupScene",
+      "group": "90",
+      "lights": [
+        "2",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "gi1An_r90"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2025-04-09T21:18:33",
+      "version": 2
+    },
+    "JV69eVizGSrh5V3R": {
+      "id": "JV69eVizGSrh5V3R",
+      "name": "Read",
+      "type": "GroupScene",
+      "group": "90",
+      "lights": [
+        "2",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "zQbTS_r90"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2025-04-09T21:18:33",
+      "version": 2
+    },
+    "EsBJHNkn4fx3Y5Lm": {
+      "id": "EsBJHNkn4fx3Y5Lm",
+      "name": "Relax",
+      "type": "GroupScene",
+      "group": "90",
+      "lights": [
+        "2",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "TaXRC_r90"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2025-04-09T21:18:33",
+      "version": 2
+    },
+    "Pkmoehg6o1CEsZJv": {
+      "id": "Pkmoehg6o1CEsZJv",
+      "name": "Nightlight",
+      "type": "GroupScene",
+      "group": "90",
+      "lights": [
+        "2",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "CQOsG_r90"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2025-04-09T21:18:33",
+      "version": 2
+    },
+    "bSvSwjusySeNDXHw": {
+      "id": "bSvSwjusySeNDXHw",
+      "name": "Alex Candles",
+      "type": "GroupScene",
+      "group": "87",
+      "lights": [
+        "6",
+        "7",
+        "14"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "gQivQ_r87"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-03-28T22:48:33",
+      "version": 2
+    },
+    "7PC5g39rUUjaV8SU": {
+      "id": "7PC5g39rUUjaV8SU",
+      "name": "Galaxy",
+      "type": "GroupScene",
+      "group": "90",
+      "lights": [
+        "2",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "1lZnj_r90"
+      },
+      "picture": "",
+      "image": "9e1d16f5-f391-4306-a6d3-d15bca61eb56",
+      "lastupdated": "2025-04-09T21:18:33",
+      "version": 2
+    },
+    "uSplgYpcbNSWbzgd": {
+      "id": "uSplgYpcbNSWbzgd",
+      "name": "Energize",
+      "type": "GroupScene",
+      "group": "87",
+      "lights": [
+        "6",
+        "7",
+        "14"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "AdHsU_r87"
+      },
+      "picture": "",
+      "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+      "lastupdated": "2025-03-28T22:48:32",
+      "version": 2
+    },
+    "nklNSGoFjERsS-Ww": {
+      "id": "nklNSGoFjERsS-Ww",
+      "name": "Concentrate",
+      "type": "GroupScene",
+      "group": "87",
+      "lights": [
+        "6",
+        "7",
+        "14"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "nLh3l_r87"
+      },
+      "picture": "",
+      "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+      "lastupdated": "2025-03-28T22:48:33",
+      "version": 2
+    },
+    "2NhMaYT8evPPCM9h": {
+      "id": "2NhMaYT8evPPCM9h",
+      "name": "Read",
+      "type": "GroupScene",
+      "group": "87",
+      "lights": [
+        "6",
+        "7",
+        "14"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "mqt2w_r87"
+      },
+      "picture": "",
+      "image": "e101a77f-9984-4f61-aac8-15741983c656",
+      "lastupdated": "2025-03-28T22:48:33",
+      "version": 2
+    },
+    "RNU6Z-jJ3Mt8mCQs": {
+      "id": "RNU6Z-jJ3Mt8mCQs",
+      "name": "Relax",
+      "type": "GroupScene",
+      "group": "87",
+      "lights": [
+        "6",
+        "7",
+        "14"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "P2YrU_r87"
+      },
+      "picture": "",
+      "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+      "lastupdated": "2025-03-28T22:48:33",
+      "version": 2
+    },
+    "cRhiS6zCnPWkfBA-": {
+      "id": "cRhiS6zCnPWkfBA-",
+      "name": "Nightlight",
+      "type": "GroupScene",
+      "group": "87",
+      "lights": [
+        "6",
+        "7",
+        "14"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Pwqrl_r87"
+      },
+      "picture": "",
+      "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+      "lastupdated": "2025-03-28T22:48:33",
+      "version": 2
+    },
+    "GBigURG3mK5E7KDR": {
+      "id": "GBigURG3mK5E7KDR",
+      "name": "Galaxy",
+      "type": "GroupScene",
+      "group": "88",
+      "lights": [
+        "1",
+        "2",
+        "8"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "vDvOQ_r88"
+      },
+      "picture": "",
+      "image": "9e1d16f5-f391-4306-a6d3-d15bca61eb56",
+      "lastupdated": "2025-06-07T22:24:26",
+      "version": 2
+    },
+    "ek4VizQCymWZFA1X": {
+      "id": "ek4VizQCymWZFA1X",
+      "name": "Galaxy",
+      "type": "GroupScene",
+      "group": "82",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8",
+        "9",
+        "11"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "B66Qf_r82"
+      },
+      "picture": "",
+      "image": "9e1d16f5-f391-4306-a6d3-d15bca61eb56",
+      "lastupdated": "2025-02-25T20:44:03",
+      "version": 2
+    },
+    "S9s2AAOjQ0bXYeov": {
+      "id": "S9s2AAOjQ0bXYeov",
+      "name": "chill",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "iQHYD_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "AJpV2RvN-NiJdxrO": {
+      "id": "AJpV2RvN-NiJdxrO",
+      "name": "Blue Planet",
+      "type": "GroupScene",
+      "group": "85",
+      "lights": [
+        "4",
+        "5"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "4pf1F_r85"
+      },
+      "picture": "",
+      "image": "db4ded6b-b552-4e0d-a1ea-2f23d8880c8c",
+      "lastupdated": "2025-06-07T21:53:21",
+      "version": 2
+    },
+    "g8nOyOrGSzKB31R0": {
+      "id": "g8nOyOrGSzKB31R0",
+      "name": "Autumn gold",
+      "type": "GroupScene",
+      "group": "85",
+      "lights": [
+        "4",
+        "5"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "R34tk_r85"
+      },
+      "picture": "",
+      "image": "6799326d-e9cd-4b2a-9166-287509f841f3",
+      "lastupdated": "2025-06-07T21:53:21",
+      "version": 2
+    },
+    "XTDvCvfNezsohE2I": {
+      "id": "XTDvCvfNezsohE2I",
+      "name": "Precious",
+      "type": "GroupScene",
+      "group": "85",
+      "lights": [
+        "4",
+        "5"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "hP8Mr_r85"
+      },
+      "picture": "",
+      "image": "7f9638b1-1efc-4acc-8440-6bd70b0cf3f4",
+      "lastupdated": "2025-06-07T21:53:21",
+      "version": 2
+    },
+    "VkeFCozWFHT1t7lU": {
+      "id": "VkeFCozWFHT1t7lU",
+      "name": "Bedside Read",
+      "type": "GroupScene",
+      "group": "87",
+      "lights": [
+        "6",
+        "7",
+        "14"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "njXd7_r87"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-03-28T22:51:37",
+      "version": 2
+    },
+    "K5NkFkh2XsXmYQvI": {
+      "id": "K5NkFkh2XsXmYQvI",
+      "name": "active chill (red)",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "dwJ0j_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:24",
+      "version": 2
+    },
+    "xmrZnuy0sHBV6IG": {
+      "id": "xmrZnuy0sHBV6IG",
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "HE_IHEf6_r81_h01"
+      },
+      "picture": "pal-strawberry",
+      "image": "",
+      "lastupdated": "2025-05-07T21:42:16",
+      "version": 2
+    },
+    "SnwkFydEEP2gDwS": {
+      "id": "SnwkFydEEP2gDwS",
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "HE_TXBhT_r81_h01"
+      },
+      "picture": "pal-strawberry",
+      "image": "",
+      "lastupdated": "2025-05-07T21:42:16",
+      "version": 2
+    },
+    "qgBURRVgQxwK9ES": {
+      "id": "qgBURRVgQxwK9ES",
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "HE_vXx1G_r81_h01"
+      },
+      "picture": "pal-strawberry",
+      "image": "",
+      "lastupdated": "2025-05-07T21:42:16",
+      "version": 2
+    },
+    "615lGkTDx872XpL": {
+      "id": "615lGkTDx872XpL",
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "HE_xSTZK_r81_h01"
+      },
+      "picture": "pal-strawberry",
+      "image": "",
+      "lastupdated": "2025-05-07T21:42:17",
+      "version": 2
+    },
+    "qMTJyXAhuqvWzpz": {
+      "id": "qMTJyXAhuqvWzpz",
+      "name": "HueEssentialsEffect",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "recycle": true,
+      "locked": true,
+      "appdata": {
+        "version": 1,
+        "data": "HE_VafuX_r81_h01"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-05-07T21:42:17",
+      "version": 2
+    },
+    "McmMaMfxXOhjxJAp": {
+      "id": "McmMaMfxXOhjxJAp",
+      "name": "Bright",
+      "type": "GroupScene",
+      "group": "89",
+      "lights": [
+        "10",
+        "12"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "0uGdO_r89"
+      },
+      "picture": "",
+      "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+      "lastupdated": "2025-05-10T12:12:51",
+      "version": 2
+    },
+    "j1JbTLbAIxe1JPJb": {
+      "id": "j1JbTLbAIxe1JPJb",
+      "name": "Dimmed",
+      "type": "GroupScene",
+      "group": "89",
+      "lights": [
+        "10",
+        "12"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "ZdClc_r89"
+      },
+      "picture": "",
+      "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+      "lastupdated": "2025-05-10T12:12:52",
+      "version": 2
+    },
+    "C4XLBYYdwqXeUdJx": {
+      "id": "C4XLBYYdwqXeUdJx",
+      "name": "cinema",
+      "type": "GroupScene",
+      "group": "88",
+      "lights": [
+        "1",
+        "2",
+        "8"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "QtGtA_r88"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:26",
+      "version": 2
+    },
+    "VtaggXFaXM1-VRa4": {
+      "id": "VtaggXFaXM1-VRa4",
+      "name": "chill nice",
+      "type": "GroupScene",
+      "group": "81",
+      "lights": [
+        "3",
+        "9",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "Sw2DC_r81"
+      },
+      "picture": "",
+      "image": "",
+      "lastupdated": "2025-06-07T22:24:25",
+      "version": 2
+    },
+    "1vaOWmwZUTWYQh6S": {
+      "id": "1vaOWmwZUTWYQh6S",
+      "name": "Nighttime",
+      "type": "GroupScene",
+      "group": "91",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "cpIkY_r91"
+      },
+      "picture": "",
+      "image": "afea2234-8d6f-4bb3-a174-8e5bd5f7372d",
+      "lastupdated": "2025-06-08T20:12:24",
+      "version": 2
+    },
+    "Zl3-A128azCJuHWP": {
+      "id": "Zl3-A128azCJuHWP",
+      "name": "Sunset allure",
+      "type": "GroupScene",
+      "group": "91",
+      "lights": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "owner": "",
+      "recycle": false,
+      "locked": false,
+      "appdata": {
+        "version": 1,
+        "data": "rpoxp_r91"
+      },
+      "picture": "",
+      "image": "c7e5c485-bc72-4ef1-a5ce-08ae6611c9fd",
+      "lastupdated": "2025-06-08T20:13:14",
+      "version": 2
+    }
+  }
+}

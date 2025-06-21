@@ -1,0 +1,1037 @@
+{
+  "config": {
+    "name": "Hue Bridge",
+    "zigbeechannel": 11,
+    "bridgeid": "ECB5FAFFFEA83D1F",
+    "mac": "ec:b5:fa:a8:3d:1f",
+    "dhcp": true,
+    "ipaddress": "192.168.0.219",
+    "netmask": "255.255.255.0",
+    "gateway": "192.168.0.1",
+    "proxyaddress": "none",
+    "proxyport": 0,
+    "UTC": "2025-06-21T13:20:57",
+    "localtime": "2025-06-21T15:20:57",
+    "timezone": "Europe/Berlin",
+    "modelid": "BSB002",
+    "datastoreversion": "177",
+    "swversion": "1971060010",
+    "apiversion": "1.71.0",
+    "swupdate2": {
+      "checkforupdate": false,
+      "lastchange": "2025-05-27T12:19:00",
+      "bridge": {
+        "state": "noupdates",
+        "lastinstall": "2025-05-27T12:19:00"
+      },
+      "state": "noupdates",
+      "autoinstall": {
+        "updatetime": "T14:00:00",
+        "on": true
+      }
+    },
+    "linkbutton": false,
+    "portalservices": true,
+    "analyticsconsent": false,
+    "portalconnection": "disconnected",
+    "portalstate": {
+      "signedon": false,
+      "incoming": false,
+      "outgoing": false,
+      "communication": "disconnected"
+    },
+    "internetservices": {
+      "internet": "connected",
+      "remoteaccess": "connected",
+      "time": "connected",
+      "swupdate": "connected"
+    },
+    "factorynew": false,
+    "replacesbridgeid": null,
+    "starterkitid": "",
+    "backup": {
+      "status": "idle",
+      "errorcode": 0
+    },
+    "whitelist": {
+      "eddb53a3-e243-43eb-a078-e128ffed03e7": {
+        "last use date": "1980-01-01T00:01:38",
+        "create date": "1980-01-01T00:01:38",
+        "name": "starterkit-setup#factory"
+      },
+      "6ee99e7d-2445-4112-b738-7f2c84d13f0f": {
+        "last use date": "1980-01-01T00:01:41",
+        "create date": "1980-01-01T00:01:41",
+        "name": "starterkit-setup#factory"
+      },
+      "3ffc08d0-0a98-4fd0-b6ae-d4e802d6e84a": {
+        "last use date": "2024-03-19T14:50:11",
+        "create date": "2024-03-19T14:38:07",
+        "name": "Hue#iPhone"
+      },
+      "79da0952-a847-411d-b033-b96a7194e696": {
+        "last use date": "2025-06-20T06:23:12",
+        "create date": "2024-03-19T14:51:24",
+        "name": "Hue#iPhone"
+      },
+      "a9d9072a-48c5-4744-82ba-e21e86b46c0b": {
+        "last use date": "2025-01-19T20:55:09",
+        "create date": "2025-01-19T19:35:24",
+        "name": "Hue#iPhone"
+      },
+      "636d56d0-d241-4299-9e82-9e57a3db85bf": {
+        "last use date": "2025-02-07T22:48:11",
+        "create date": "2025-01-19T20:55:10",
+        "name": "Hue#iPhone"
+      },
+      "5cc18767-5baa-424b-a877-eb653ab53d7b": {
+        "last use date": "2025-02-20T21:22:47",
+        "create date": "2025-01-19T21:28:50",
+        "name": "Hue Essentials#iPhone"
+      },
+      "05229472-a329-4592-991c-3cb5d62f9660": {
+        "last use date": "2025-02-02T20:42:26",
+        "create date": "2025-02-02T20:18:43",
+        "name": "soundstorm_for_hue#scottdodson"
+      },
+      "927cc46b-a1ac-42ca-9f05-3ed2fa5b7748": {
+        "last use date": "2025-06-15T14:46:12",
+        "create date": "2025-02-07T22:48:36",
+        "name": "Hue#iPhone"
+      },
+      "01b725af-9613-4e53-b935-a0b8a61a5565": {
+        "last use date": "2025-05-11T09:00:39",
+        "create date": "2025-05-07T21:38:09",
+        "name": "Hue Essentials#Mac OS X 15.1.1 x86_64"
+      },
+      "VxCfEeAXMSaq190p11fGzOQm3qG5NOMbEpfpx9hZ": {
+        "last use date": "2025-06-21T13:20:57",
+        "create date": "2025-06-21T13:13:01",
+        "name": "hue-config-manager"
+      }
+    }
+  },
+  "schedules": {
+    "1": {
+      "name": "Hue dimmer switch 1.reset",
+      "description": "Resets dimmer switch scene cycler",
+      "command": {
+        "address": "/api/6ee99e7d-2445-4112-b738-7f2c84d13f0f/sensors/3/state",
+        "body": {
+          "status": 0
+        },
+        "method": "PUT"
+      },
+      "time": "PT00:00:10",
+      "created": "2023-11-08T00:18:46",
+      "status": "disabled",
+      "autodelete": false,
+      "starttime": "2023-11-08T00:18:46",
+      "recycle": true
+    }
+  },
+  "rules": {
+    "1": {
+      "name": "Hue dimmer switch 1.on",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "1000"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        },
+        {
+          "address": "/groups/0/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "scene": "SyyQiW4Uz8fd7R0"
+          }
+        },
+        {
+          "address": "/sensors/3/state",
+          "method": "PUT",
+          "body": {
+            "status": 1
+          }
+        }
+      ]
+    },
+    "2": {
+      "name": "Hue dimmer switch 1.off",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "1000"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        },
+        {
+          "address": "/groups/0/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "on": false
+          }
+        },
+        {
+          "address": "/sensors/3/state",
+          "method": "PUT",
+          "body": {
+            "status": 1
+          }
+        }
+      ]
+    },
+    "3": {
+      "name": "Hue dimmer switch 1.dimup-tap",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "2000"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 9,
+            "bri_inc": 30
+          }
+        }
+      ]
+    },
+    "4": {
+      "name": "Hue dimmer switch 1.dimup-hold",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "2001"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 9,
+            "bri_inc": 56
+          }
+        }
+      ]
+    },
+    "5": {
+      "name": "Hue dimmer switch 1.dimup-rel",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "2003"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 0
+          }
+        }
+      ]
+    },
+    "6": {
+      "name": "Hue dimmer switch 1.dimdown-tap",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "3000"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 9,
+            "bri_inc": -30
+          }
+        }
+      ]
+    },
+    "7": {
+      "name": "Hue dimmer switch 1.dimdown-hold",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "3001"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 9,
+            "bri_inc": -56
+          }
+        }
+      ]
+    },
+    "8": {
+      "name": "Hue dimmer switch 1.dimdown-rel",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "3003"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "bri_inc": 0
+          }
+        }
+      ]
+    },
+    "9": {
+      "name": "Hue dimmer switch 1.sceneinit",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "4000"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        },
+        {
+          "address": "/groups/0/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "scene": "s2vKV8V07pZll2K"
+          }
+        },
+        {
+          "address": "/sensors/3/state",
+          "method": "PUT",
+          "body": {
+            "status": 2
+          }
+        }
+      ]
+    },
+    "10": {
+      "name": "Hue dimmer switch 1.relax",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "4000"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "scene": "s2vKV8V07pZll2K"
+          }
+        },
+        {
+          "address": "/sensors/3/state",
+          "method": "PUT",
+          "body": {
+            "status": 2
+          }
+        }
+      ]
+    },
+    "11": {
+      "name": "Hue dimmer switch 1.read",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "4000"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "scene": "zWKDD53v58fTjxB"
+          }
+        },
+        {
+          "address": "/sensors/3/state",
+          "method": "PUT",
+          "body": {
+            "status": 3
+          }
+        }
+      ]
+    },
+    "12": {
+      "name": "Hue dimmer switch 1.concentrate",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/status",
+          "operator": "eq",
+          "value": "3"
+        },
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "4000"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "scene": "mgt1QoegBQHSw7N"
+          }
+        },
+        {
+          "address": "/sensors/3/state",
+          "method": "PUT",
+          "body": {
+            "status": 4
+          }
+        }
+      ]
+    },
+    "13": {
+      "name": "Hue dimmer switch 1.energize",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:46",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/status",
+          "operator": "eq",
+          "value": "4"
+        },
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "4000"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "scene": "gkjed-6xLxPqkZ3"
+          }
+        },
+        {
+          "address": "/sensors/3/state",
+          "method": "PUT",
+          "body": {
+            "status": 5
+          }
+        }
+      ]
+    },
+    "14": {
+      "name": "Hue dimmer switch 1.nightlight",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:47",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "resourcedeleted",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/status",
+          "operator": "eq",
+          "value": "5"
+        },
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "4000"
+        },
+        {
+          "address": "/sensors/2/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/0/action",
+          "method": "PUT",
+          "body": {
+            "scene": "11kkMujSuxePMp4"
+          }
+        },
+        {
+          "address": "/sensors/3/state",
+          "method": "PUT",
+          "body": {
+            "status": 1
+          }
+        }
+      ]
+    },
+    "15": {
+      "name": "Hue dimmer switch 1.scenereset",
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "created": "2023-11-08T00:18:47",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/3/state/status",
+          "operator": "ddx",
+          "value": "PT00:00:10"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/3/state",
+          "method": "PUT",
+          "body": {
+            "status": 1
+          }
+        }
+      ]
+    },
+    "16": {
+      "name": "HueEssentialsEffect",
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "created": "2025-05-07T21:42:16",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/10/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:01"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 50,
+            "scene": "xmrZnuy0sHBV6IG"
+          }
+        }
+      ]
+    },
+    "17": {
+      "name": "HueEssentialsEffect",
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "created": "2025-05-07T21:42:16",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/10/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:06"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 50,
+            "scene": "SnwkFydEEP2gDwS"
+          }
+        }
+      ]
+    },
+    "18": {
+      "name": "HueEssentialsEffect",
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "created": "2025-05-07T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/10/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:11"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 50,
+            "scene": "qgBURRVgQxwK9ES"
+          }
+        }
+      ]
+    },
+    "19": {
+      "name": "HueEssentialsEffect",
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "created": "2025-05-07T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/10/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:16"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": {
+            "transitiontime": 50,
+            "scene": "615lGkTDx872XpL"
+          }
+        }
+      ]
+    },
+    "20": {
+      "name": "HueEssentialsEffect",
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "created": "2025-05-07T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/10/state/lastupdated",
+          "operator": "ddx",
+          "value": "PT00:00:20"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/10/state",
+          "method": "PUT",
+          "body": {
+            "status": 2
+          }
+        }
+      ]
+    },
+    "21": {
+      "name": "HueEssentialsEffect",
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "created": "2025-05-07T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "1"
+        },
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/scenes/qMTJyXAhuqvWzpz",
+          "method": "PUT",
+          "body": {
+            "storelightstate": true
+          }
+        },
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": {
+            "on": true
+          }
+        },
+        {
+          "address": "/sensors/9/state",
+          "method": "PUT",
+          "body": {
+            "status": 2
+          }
+        },
+        {
+          "address": "/sensors/10/state",
+          "method": "PUT",
+          "body": {
+            "status": 2
+          }
+        }
+      ]
+    },
+    "22": {
+      "name": "HueEssentialsEffect",
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "created": "2025-05-07T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "0"
+        },
+        {
+          "address": "/sensors/10/state/lastupdated",
+          "operator": "dx"
+        },
+        {
+          "address": "/groups/81/state/any_on",
+          "operator": "eq",
+          "value": "true"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/81/action",
+          "method": "PUT",
+          "body": {
+            "scene": "qMTJyXAhuqvWzpz"
+          }
+        }
+      ]
+    },
+    "23": {
+      "name": "HueEssentialsEffect",
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "created": "2025-05-07T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/groups/81/state/any_on",
+          "operator": "eq",
+          "value": "false"
+        },
+        {
+          "address": "/groups/81/state/any_on",
+          "operator": "dx"
+        },
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "gt",
+          "value": "0"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/10/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        },
+        {
+          "address": "/sensors/9/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        }
+      ]
+    },
+    "24": {
+      "name": "HueEssentialsEffect",
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "created": "2025-05-07T21:42:17",
+      "lasttriggered": "none",
+      "timestriggered": 0,
+      "status": "enabled",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/10/state/status",
+          "operator": "eq",
+          "value": "2"
+        },
+        {
+          "address": "/sensors/9/state/lastupdated",
+          "operator": "dx"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/sensors/10/state",
+          "method": "PUT",
+          "body": {
+            "status": 0
+          }
+        }
+      ]
+    }
+  },
+  "resourcelinks": {
+    "30844": {
+      "name": "Hue dimmer switch 1",
+      "description": "Behaviour for Hue dimmer switch 1",
+      "type": "Link",
+      "classid": 10011,
+      "owner": "6ee99e7d-2445-4112-b738-7f2c84d13f0f",
+      "recycle": false,
+      "links": [
+        "/groups/0",
+        "/scenes/SyyQiW4Uz8fd7R0",
+        "/scenes/s2vKV8V07pZll2K",
+        "/scenes/zWKDD53v58fTjxB",
+        "/scenes/mgt1QoegBQHSw7N",
+        "/scenes/gkjed-6xLxPqkZ3",
+        "/scenes/11kkMujSuxePMp4",
+        "/sensors/3",
+        "/schedules/1",
+        "/rules/1",
+        "/rules/2",
+        "/rules/3",
+        "/rules/4",
+        "/rules/5",
+        "/rules/6",
+        "/rules/7",
+        "/rules/8",
+        "/rules/9",
+        "/rules/10",
+        "/rules/11",
+        "/rules/12",
+        "/rules/13",
+        "/rules/14",
+        "/rules/15"
+      ]
+    },
+    "42565": {
+      "name": "Strawberry love",
+      "description": "HueEssentialsEffect_81_Strawberry love",
+      "type": "Link",
+      "classid": 18,
+      "owner": "01b725af-9613-4e53-b935-a0b8a61a5565",
+      "recycle": false,
+      "links": [
+        "/groups/81",
+        "/sensors/9",
+        "/sensors/10",
+        "/scenes/xmrZnuy0sHBV6IG",
+        "/rules/16",
+        "/scenes/SnwkFydEEP2gDwS",
+        "/rules/17",
+        "/scenes/qgBURRVgQxwK9ES",
+        "/rules/18",
+        "/scenes/615lGkTDx872XpL",
+        "/rules/19",
+        "/rules/20",
+        "/scenes/qMTJyXAhuqvWzpz",
+        "/rules/21",
+        "/rules/22",
+        "/rules/23",
+        "/rules/24"
+      ]
+    }
+  }
+}
