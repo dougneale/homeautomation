@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
+import Link from 'next/link';
 
 interface HueLight {
   id: string;
@@ -539,9 +540,10 @@ export default function Dashboard() {
                     .includes('tap');
 
                   return (
-                    <div
+                    <Link
                       key={device.id}
-                      className="bg-gray-50 rounded-lg p-6 border hover:bg-gray-100 transition-colors"
+                      href={`/devices/${device.id}`}
+                      className="bg-gray-50 rounded-lg p-6 border hover:bg-gray-100 transition-colors block"
                     >
                       {/* Header */}
                       <div className="flex items-start space-x-4 mb-6">
@@ -871,7 +873,7 @@ export default function Dashboard() {
                           )}
                         </ul>
                       </div>
-                    </div>
+                    </Link>
                   );
                 })}
               </div>
@@ -894,12 +896,15 @@ export default function Dashboard() {
                 key={roomId}
                 className="bg-white rounded-lg shadow-lg overflow-hidden"
               >
-                <div className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-4">
+                <Link
+                  href={`/rooms/${roomId}`}
+                  className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-4 block hover:from-blue-600 hover:to-purple-700 transition-colors"
+                >
                   <h2 className="text-2xl font-bold text-white">{room.name}</h2>
                   <p className="text-blue-100 capitalize">
-                    {room.archetype?.replace('_', ' ')}
+                    {room.archetype?.replace('_', ' ')} • Click for details
                   </p>
-                </div>
+                </Link>
 
                 <div className="p-6">
                   {/* Lights */}
@@ -909,9 +914,10 @@ export default function Dashboard() {
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                       {roomLights.map((light) => (
-                        <div
+                        <Link
                           key={light.id}
-                          className="bg-gray-50 rounded-lg p-4 border"
+                          href={`/lights/${light.id}`}
+                          className="bg-gray-50 rounded-lg p-4 border hover:bg-gray-100 transition-colors block"
                         >
                           <div className="flex items-center justify-between mb-2">
                             <h4 className="font-medium text-gray-900">
@@ -936,7 +942,7 @@ export default function Dashboard() {
                               {light.state.brightness || 0}% brightness
                             </span>
                           </div>
-                        </div>
+                        </Link>
                       ))}
                     </div>
                   </div>
@@ -952,9 +958,10 @@ export default function Dashboard() {
                         const affectedLights = scene.actions?.length || 0;
 
                         return (
-                          <div
+                          <Link
                             key={scene.id}
-                            className="bg-gray-50 rounded-lg p-4 border hover:bg-gray-100 transition-colors"
+                            href={`/scenes/${scene.id}`}
+                            className="bg-gray-50 rounded-lg p-4 border hover:bg-gray-100 transition-colors block"
                           >
                             <div className="flex items-center space-x-2 mb-3">
                               <span className="text-2xl">
@@ -1013,7 +1020,7 @@ export default function Dashboard() {
                                 </div>
                               )}
                             </div>
-                          </div>
+                          </Link>
                         );
                       })}
                     </div>
@@ -1044,9 +1051,10 @@ export default function Dashboard() {
                     const affectedLights = scene.actions?.length || 0;
 
                     return (
-                      <div
+                      <Link
                         key={scene.id}
-                        className="bg-gray-50 rounded-lg p-4 border hover:bg-gray-100 transition-colors"
+                        href={`/scenes/${scene.id}`}
+                        className="bg-gray-50 rounded-lg p-4 border hover:bg-gray-100 transition-colors block"
                       >
                         <div className="flex items-center space-x-2 mb-3">
                           <span className="text-2xl">
@@ -1086,7 +1094,7 @@ export default function Dashboard() {
                             </span>
                           )}
                         </div>
-                      </div>
+                      </Link>
                     );
                   })}
               </div>
