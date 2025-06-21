@@ -1,0 +1,22 @@
+{
+  "name": "philips-hue-config",
+  "version": "1.0.0",
+  "description": "TypeScript tool for Philips Hue configuration management",
+  "scripts": {
+    "discover-bridge": "ts-node scripts/discover-bridge.ts",
+    "get-api-key": "ts-node scripts/get-api-key.ts",
+    "export-config": "ts-node scripts/export-config.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/inquirer": "^9.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.2.0"
+  }
+}

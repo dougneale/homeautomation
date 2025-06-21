@@ -1,0 +1,37 @@
+{
+  "name": "philips-hue-config",
+  "version": "1.0.0",
+  "description": "A TypeScript/Node.js tool to manage Philips Hue lighting configuration as code",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "discover-bridge": "ts-node scripts/discover-bridge.ts",
+    "get-api-key": "ts-node scripts/get-api-key.ts",
+    "export-config": "ts-node scripts/export-config.ts",
+    "apply-config": "ts-node scripts/apply-config.ts"
+  },
+  "keywords": [
+    "philips-hue",
+    "smart-home",
+    "lighting",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^8.2.6",
+    "node-ssdp": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/inquirer": "^9.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.2.0"
+  }
+}
